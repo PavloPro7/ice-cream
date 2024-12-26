@@ -35,34 +35,76 @@
     </header>
     <main class="main">
         <div class="hero">
-            <div class="hero-info">
-                <h1 class="slogan">ice cream<br>made with<br>passion</h1>
-                <div class="hero-button">
-                    <button class="button-products" type="button" id="openBtnProd"></button>
-                    <button class="button-about" type="button" id="openBtnAbout"></button>
+            <div class="north-part">
+                <div class="hero-info">
+                    <h1 class="slogan">ice cream<br>made with<br>passion</h1>
+                    <div class="hero-button">
+                        <button class="button-products" type="button" id="openBtnProd"></button>
+                        <button class="button-about" type="button" id="openBtnAbout"></button>
+                    </div>
+                    <div class="hero-descr-cont">
+                        <img src="images/manyice.png" alt="many ice" widht="225">
+                        <p class="hero-descr">
+                            Indulge in a scoop of ice cream made with passion and treat your taste buds to an unforgettable experience!
+                            
+                        </p>
+                        <span class="arrow-right" onclick="openHeroMenu">
+                            <svg class="svgArrow" width="40">
+                                <use href="arrowRight"></use>
+                            </svg>
+                        </span>
+                    </div>
                 </div>
-                <div class="hero-descr-cont">
-                    <img src="images/manyice.png" alt="many ice" widht="225">
-                    <p class="hero-descr">
-                        Indulge in a scoop of ice cream made with passion and treat your taste buds to an unforgettable experience!
+                <div class="primary-ice-cont">
+                    <img src="images/ice.png" width="456" alt="ice" class="primary-ice">
+                </div>
+                <div class="hero-numbers">
+                    <p class="number">16</p>
+                    <p class="number-info">cafes</p>
+                    <p class="number">23</p>
+                    <p class="number-info">food trucks</p>
+                </div>
+            </div>
+            <div class="south-part">
+                <p class="products-title-descr">
+                    100% natural
+                </p>
+                <h2 class="products-title">products</h2>
+                <ul class="products-list">
+                    <li class="products-item">
+                        <img src="images/ice-cream.png" alt="ice" width="302" class="products-img">
+                        <h3 class="products-item-title">ice cream</h3>
+                        <p class="products-item-descr">Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural stabilizer
+                        </p>
+                        <a href="#" class="products-link">
+                            <!-- onclick="openHeroMenu" -->
+                                <svg class="svgArrowBlack" width="40">
+                                    <use href="arrowRight"></use>
+                                </svg>                           
+                        </a>
                         
-                    </p>
-                    <span class="arrow-right" onclick="openHeroMenu">
-                        <svg class="svgArrow" width="40">
-                            <use href="arrowRight"></use>
-                        </svg>
-                    </span>
-                </div>
+                    </li>
+                    <li class="products-item">
+                        <img src="images/ice-coffee.png" alt="ice" width="302" class="products-img">
+                        <h3 class="products-item-title">ice coffee</h3>
+                        <p class="products-item-descr">
+                            Fragrant invigorating drink created from 100% natural ingredients without the use of preservatives and flavor enhancers
+                        </p>
+                        <a href="#" class="products-link"></a>
+                    </li>
+                    <li class="products-item">
+                        <img src="images/milkshakes.png" alt="ice" width="302" class="products-img">
+                        <h3 class="products-item-title">milkshakes</h3>
+                        <p class="products-item-descr">
+                            Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries and other sweets of your choice
+                        </p>
+                        <a href="#" class="products-link"></a>
+                    </li>
+                </ul>
+
             </div>
-            <div class="primary-ice-cont">
-                <img src="images/ice.png" width="456" alt="ice" class="primary-ice">
-            </div>
-            <div class="hero-numbers">
-                <p class="number">16</p>
-                <p class="number-info">cafes</p>
-                <p class="number">23</p>
-                <p class="number-info">food trucks</p>
-            </div>
+            
+            
         </div>
         <div class="content"></div>
         <div class="review"></div>
