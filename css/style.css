@@ -1,7 +1,8 @@
 :root {
 	--green: #84A178;
-       	--yellow: #F8D24E;
-       	--white: #FFF;
+    --yellow: #F8D24E;
+    --white: #FFF;
+}
 
 body {
     background-color: var(--green);
@@ -18,9 +19,48 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-between;
 }
 
+.nav-cont {
+/*   padding: 0 17.08vw 0 25.66vw;*/
+    padding: 0;
+}
 .nav-list {
     list-style-type: none;
     display: flex;
+    margin: 0;   
 }
+.nav-item {
+    margin-right: 2.33vw;
+    color: var(--white);
+    font-weight: 700;
+    margin-top: 2.66vw;
+}
+.nav-item:hover, .nav-item:focus {
+    color: var(--yellow);
+}
+.nav-item:last-child {
+    margin-right: 0; 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
