@@ -1,7 +1,7 @@
 :root {
-	--green: #84A178;
-    --yellow: #F8D24E;
-    --white: #FFF;
+    --green: #84a178;
+    --yellow: #f8d24e;
+    --white: #fff;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 .svg-cont {
-	display: none;
+    display: none;
 }
 
 .header {
@@ -23,44 +23,27 @@ body {
 }
 
 .nav-cont {
-/*   padding: 0 17.08vw 0 25.66vw;*/
+    /*   padding: 0 17.08vw 0 25.66vw;*/
     padding: 0;
 }
 .nav-list {
     list-style-type: none;
     display: flex;
-    margin: 0;   
+    margin: 0;
 }
 .nav-item {
     margin-right: 2.33vw;
-    color: var(--white);
     font-weight: 700;
     margin-top: 2.66vw;
 }
-.nav-item:hover, .nav-item:focus {
+.nav-item-link {
+    text-decoration: none;
+    color: var(--white);
+}
+.nav-item-link:hover,
+.nav-item-link:focus {
     color: var(--yellow);
 }
-.nav-item:last-child {
-    margin-right: 0; 
-    
+.nav-item-link:last-child {
+    margin-right: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

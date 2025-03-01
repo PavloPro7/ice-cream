@@ -1,335 +1,540 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<div class="svg-cont">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="svg-cont">
+            <svg
+                width="41"
+                height="16"
+                viewBox="0 0 41 16"
+                fill="black"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <defs>
+                    <symbol id="arrowRight">
+                        <path
+                            d="M40.7071 8.70711C41.0976 8.31658 41.0976 7.68342 40.7071 7.29289L34.3431 0.928932C33.9526 0.538408 33.3195 0.538408 32.9289 0.928932C32.5384 1.31946 32.5384 1.95262 32.9289 2.34315L38.5858 8L32.9289 13.6569C32.5384 14.0474 32.5384 14.6805 32.9289 15.0711C33.3195 15.4616 33.9526 15.4616 34.3431 15.0711L40.7071 8.70711ZM0 9H40V7H0V9Z"
+                            fill="#FCFCFC"
+                        />
+                    </symbol>
+                </defs>
+            </svg>
+            <svg
+                width="7"
+                height="10"
+                viewBox="0 0 7 10"
+                fill="black"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <symbol id="arrowBlack">
+                    <path
+                        d="M0.96959 0.227006C0.828987 0.367651 0.75 0.558382 0.75 0.757256C0.75 0.956129 0.828987 1.14686 0.96959 1.28751L4.68209 5.00001L0.96959 8.71251C0.832971 8.85396 0.757375 9.04341 0.759084 9.24006C0.760793 9.4367 0.83967 9.62481 0.978726 9.76387C1.11778 9.90293 1.30589 9.9818 1.50254 9.98351C1.69919 9.98522 1.88864 9.90962 2.03009 9.77301L6.27284 5.53026C6.41344 5.38961 6.49243 5.19888 6.49243 5.00001C6.49243 4.80113 6.41344 4.6104 6.27284 4.46976L2.03009 0.227006C1.88944 0.0864023 1.69871 0.00741577 1.49984 0.00741577C1.30097 0.00741577 1.11024 0.0864023 0.96959 0.227006Z"
+                        fill="black"
+                    />
+                </symbol>
+            </svg>
 
-    <svg width="41" height="16" viewBox="0 0 41 16" fill="black" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-            <symbol id="arrowRight">
-                <path d="M40.7071 8.70711C41.0976 8.31658 41.0976 7.68342 40.7071 7.29289L34.3431 0.928932C33.9526 0.538408 33.3195 0.538408 32.9289 0.928932C32.5384 1.31946 32.5384 1.95262 32.9289 2.34315L38.5858 8L32.9289 13.6569C32.5384 14.0474 32.5384 14.6805 32.9289 15.0711C33.3195 15.4616 33.9526 15.4616 34.3431 15.0711L40.7071 8.70711ZM0 9H40V7H0V9Z" fill="#FCFCFC"/>
-            </symbol>
-        </defs>  
-    </svg>
-    <svg width="7" height="10" viewBox="0 0 7 10" fill="black" xmlns="http://www.w3.org/2000/svg">
-        <symbol id="arrowBlack">
-            <path d="M0.96959 0.227006C0.828987 0.367651 0.75 0.558382 0.75 0.757256C0.75 0.956129 0.828987 1.14686 0.96959 1.28751L4.68209 5.00001L0.96959 8.71251C0.832971 8.85396 0.757375 9.04341 0.759084 9.24006C0.760793 9.4367 0.83967 9.62481 0.978726 9.76387C1.11778 9.90293 1.30589 9.9818 1.50254 9.98351C1.69919 9.98522 1.88864 9.90962 2.03009 9.77301L6.27284 5.53026C6.41344 5.38961 6.49243 5.19888 6.49243 5.00001C6.49243 4.80113 6.41344 4.6104 6.27284 4.46976L2.03009 0.227006C1.88944 0.0864023 1.69871 0.00741577 1.49984 0.00741577C1.30097 0.00741577 1.11024 0.0864023 0.96959 0.227006Z" fill="black"/>
-        </symbol>  
-    </svg>
-
-    <svg width="20" height="20" viewBox="0 0 20 20" fill="#84A178" xmlns="http://www.w3.org/2000/svg">
-        <symbol id="github">
-            <path d="M10 0C4.50745 0 0 4.50745 0 10C0 14.687 3.28888 18.9447 7.65625 20V16.6916C7.22351 16.7863 6.82526 16.7891 6.38474 16.6592C5.79376 16.4848 5.31357 16.0912 4.95712 15.4909C4.72992 15.1076 4.32724 14.6919 3.90717 14.7224L3.80417 13.5551C4.71252 13.4773 5.49835 14.1086 5.96481 14.8923C6.17203 15.2408 6.41052 15.4451 6.71661 15.5354C7.01248 15.6226 7.33017 15.5807 7.70035 15.45C7.79327 14.7089 8.13278 14.4315 8.38928 14.0408V14.0402C5.78461 13.6517 4.74655 12.2699 4.33456 11.1792C3.7886 9.73099 4.08157 7.92175 5.047 6.77841C5.06577 6.75613 5.09964 6.69785 5.08652 6.6571C4.64386 5.31998 5.18326 4.21387 5.20309 4.09653C5.71396 4.24759 5.79697 3.94455 7.42218 4.93195L7.70309 5.10071C7.82059 5.17075 7.78366 5.13077 7.90115 5.12192C8.57971 4.93759 9.29504 4.83582 9.99985 4.82666C10.71 4.83582 11.4207 4.93759 12.1274 5.12939L12.2183 5.13855C12.2104 5.13733 12.243 5.13275 12.2978 5.1001C14.328 3.87039 14.2551 4.27231 14.7995 4.09531C14.8192 4.2128 15.3514 5.33691 14.9135 6.6571C14.8544 6.83899 16.6736 8.50479 15.6653 11.1787C15.2533 12.2699 14.2154 13.6517 11.6107 14.0402V14.0408C11.9446 14.5497 12.3457 14.8204 12.3436 15.8702V20C16.7111 18.9447 19.9998 14.687 19.9998 10C20 4.50745 15.4926 0 10 0V0Z" fill="#84A178"/>
-        </symbol> 
-    </svg>
-    <svg width="22" height="16" viewBox="0 0 22 16" fill="#84A178" xmlns="http://www.w3.org/2000/svg">
-        <symbol id="telegram">
-            <path d="M8.6713 10.5238L8.33384 14.9538C8.81665 14.9538 9.02576 14.7602 9.27651 14.5278L11.5401 12.5088L16.2305 15.7146C17.0907 16.162 17.6968 15.9264 17.9289 14.976L21.0076 1.51162L21.0085 1.51083C21.2813 0.324011 20.5486 -0.140087 19.7105 0.151065L1.61358 6.61749C0.378498 7.06493 0.397199 7.70753 1.40362 7.99868L6.03028 9.34178L16.7771 3.06576C17.2829 2.75319 17.7427 2.92613 17.3645 3.2387L8.6713 10.5238Z" fill="#84A178"/>
-        </symbol>
-    </svg>
-    <svg width="11" height="22" viewBox="0 0 11 22" fill="#84A178" xmlns="http://www.w3.org/2000/svg">
-        <symbol id="fb">
-            <path d="M9.72348 10.9804H6.95018V21.2001H2.74839V10.9804H0.75V7.38881H2.74839V5.06464C2.74839 3.40261 3.53328 0.800049 6.98758 0.800049L10.1 0.813146V4.2994H7.84174C7.47132 4.2994 6.95046 4.48555 6.95046 5.27839V7.39216H10.0906L9.72348 10.9804Z" fill="#84A178"/>
-        </symbol>
-    </svg>
-
-	</div>
-        
-    <header class="header">
-        <div class="logo-cont">
-            <a href="index.html" class="logo-link">
-                <img src="images/Logo.svg" alt="Logo" width="60" class="logo-svg">
-            </a>
+            <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="#84A178"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <symbol id="github">
+                    <path
+                        d="M10 0C4.50745 0 0 4.50745 0 10C0 14.687 3.28888 18.9447 7.65625 20V16.6916C7.22351 16.7863 6.82526 16.7891 6.38474 16.6592C5.79376 16.4848 5.31357 16.0912 4.95712 15.4909C4.72992 15.1076 4.32724 14.6919 3.90717 14.7224L3.80417 13.5551C4.71252 13.4773 5.49835 14.1086 5.96481 14.8923C6.17203 15.2408 6.41052 15.4451 6.71661 15.5354C7.01248 15.6226 7.33017 15.5807 7.70035 15.45C7.79327 14.7089 8.13278 14.4315 8.38928 14.0408V14.0402C5.78461 13.6517 4.74655 12.2699 4.33456 11.1792C3.7886 9.73099 4.08157 7.92175 5.047 6.77841C5.06577 6.75613 5.09964 6.69785 5.08652 6.6571C4.64386 5.31998 5.18326 4.21387 5.20309 4.09653C5.71396 4.24759 5.79697 3.94455 7.42218 4.93195L7.70309 5.10071C7.82059 5.17075 7.78366 5.13077 7.90115 5.12192C8.57971 4.93759 9.29504 4.83582 9.99985 4.82666C10.71 4.83582 11.4207 4.93759 12.1274 5.12939L12.2183 5.13855C12.2104 5.13733 12.243 5.13275 12.2978 5.1001C14.328 3.87039 14.2551 4.27231 14.7995 4.09531C14.8192 4.2128 15.3514 5.33691 14.9135 6.6571C14.8544 6.83899 16.6736 8.50479 15.6653 11.1787C15.2533 12.2699 14.2154 13.6517 11.6107 14.0402V14.0408C11.9446 14.5497 12.3457 14.8204 12.3436 15.8702V20C16.7111 18.9447 19.9998 14.687 19.9998 10C20 4.50745 15.4926 0 10 0V0Z"
+                        fill="#84A178"
+                    />
+                </symbol>
+            </svg>
+            <svg
+                width="22"
+                height="16"
+                viewBox="0 0 22 16"
+                fill="#84A178"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <symbol id="telegram">
+                    <path
+                        d="M8.6713 10.5238L8.33384 14.9538C8.81665 14.9538 9.02576 14.7602 9.27651 14.5278L11.5401 12.5088L16.2305 15.7146C17.0907 16.162 17.6968 15.9264 17.9289 14.976L21.0076 1.51162L21.0085 1.51083C21.2813 0.324011 20.5486 -0.140087 19.7105 0.151065L1.61358 6.61749C0.378498 7.06493 0.397199 7.70753 1.40362 7.99868L6.03028 9.34178L16.7771 3.06576C17.2829 2.75319 17.7427 2.92613 17.3645 3.2387L8.6713 10.5238Z"
+                        fill="#84A178"
+                    />
+                </symbol>
+            </svg>
+            <svg
+                width="11"
+                height="22"
+                viewBox="0 0 11 22"
+                fill="#84A178"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <symbol id="fb">
+                    <path
+                        d="M9.72348 10.9804H6.95018V21.2001H2.74839V10.9804H0.75V7.38881H2.74839V5.06464C2.74839 3.40261 3.53328 0.800049 6.98758 0.800049L10.1 0.813146V4.2994H7.84174C7.47132 4.2994 6.95046 4.48555 6.95046 5.27839V7.39216H10.0906L9.72348 10.9804Z"
+                        fill="#84A178"
+                    />
+                </symbol>
+            </svg>
         </div>
-        <div class="navigation">
-            <ul class="nav-list">
-                <li class="nav-item">Home</li>
-                <li class="nav-item">How it’s made?</li>
-                <li class="nav-item">Our products</li>
-                <li class="nav-item">Contact</li>
-            </ul>
-        </div>
-        <button class="button-buy" type="button" id="openBtnBuy">
-            Buy now
-            <span class="button-arrow"></span>
-        </button>
-    </header>
-    <main class="main">
-        <div class="hero">
-            <div class="north-part">
-                <div class="hero-info">
-                    <h1 class="slogan">ice cream<br>made with<br>passion</h1>
-                    <div class="hero-button">
-                        <button class="button-products" type="button" id="openBtnProd"></button>
-                        <button class="button-about" type="button" id="openBtnAbout"></button>
-                    </div>
-                    <div class="hero-descr-cont">
-                        <img src="images/manyice.png" alt="many ice" widht="225">
-                        <p class="hero-descr">
-                            Indulge in a scoop of ice cream made with passion and treat your taste buds to an unforgettable experience!
-                            
-                        </p>
-                        <span class="arrow-right" onclick="openHeroMenu">
-                            <svg class="svgArrow" width="40">
-                                <use href="arrowRight"></use>
-                            </svg>
-                        </span>
-                    </div>
-                </div>
-                <div class="primary-ice-cont">
-                    <img src="images/ice.png" width="456" alt="ice" class="primary-ice">
-                </div>
-                <div class="hero-numbers">
-                    <p class="number">16</p>
-                    <p class="number-info">cafes</p>
-                    <p class="number">23</p>
-                    <p class="number-info">food trucks</p>
-                </div>
+
+        <header class="header">
+            <div class="logo-cont">
+                <a href="index.html" class="logo-link">
+                    <img
+                        src="images/Logo.svg"
+                        alt="Logo"
+                        width="60"
+                        class="logo-svg"
+                    />
+                </a>
             </div>
-            <div class="south-part">
-                <p class="products-title-descr">
-                    100% natural
-                </p>
-                <h2 class="products-title">products</h2>
-                <ul class="products-list">
-                    <li class="products-item">
-                        <img src="images/ice-cream.png" alt="ice" width="302" class="products-img">
-                        <h3 class="products-item-title">ice cream</h3>
-                        <p class="products-item-descr">Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural stabilizer
-                        </p>
-                        <a href="#" class="products-link">
-                            <!-- onclick="openHeroMenu" -->
-                                <svg class="svgArrowBlack" width="40">
-                                    <use href="#arrowRight"></use>
-                                </svg>                           
-                        </a>
-                        
+            <div class="nav-cont">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-item-link" href="">Home</a>
                     </li>
-                    <li class="products-item">
-                        <img src="images/ice-coffee.png" alt="ice" width="302" class="products-img">
-                        <h3 class="products-item-title">ice coffee</h3>
-                        <p class="products-item-descr">
-                            Fragrant invigorating drink created from 100% natural ingredients without the use of preservatives and flavor enhancers
-                        </p>
-                        <a href="#" class="products-link"></a>
+                    <li class="nav-item">
+                        <a class="nav-item-link" href="">How it's made</a>
                     </li>
-                    <li class="products-item">
-                        <img src="images/milkshakes.png" alt="ice" width="302" class="products-img">
-                        <h3 class="products-item-title">milkshakes</h3>
-                        <p class="products-item-descr">
-                            Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries and other sweets of your choice
-                        </p>
-                        <a href="#" class="products-link"></a>
+                    <li class="nav-item">
+                        <a class="nav-item-link" href="">Our products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item-link" href="">Contact</a>
                     </li>
                 </ul>
-
             </div>
-            
-            
-        </div>
+            <button class="button-buy" type="button" id="openBtnBuy">
+                Buy now
+                <span class="button-arrow"></span>
+            </button>
+        </header>
+        <main class="main">
+            <div class="hero">
+                <div class="north-part">
+                    <div class="hero-info">
+                        <h1 class="slogan">
+                            ice cream<br />made with<br />passion
+                        </h1>
+                        <div class="hero-button">
+                            <button
+                                class="button-products"
+                                type="button"
+                                id="openBtnProd"
+                            ></button>
+                            <button
+                                class="button-about"
+                                type="button"
+                                id="openBtnAbout"
+                            ></button>
+                        </div>
+                        <div class="hero-descr-cont">
+                            <img
+                                src="images/manyice.png"
+                                alt="many ice"
+                                widht="225"
+                            />
+                            <p class="hero-descr">
+                                Indulge in a scoop of ice cream made with
+                                passion and treat your taste buds to an
+                                unforgettable experience!
+                            </p>
+                            <span class="arrow-right" onclick="openHeroMenu">
+                                <svg class="svgArrow" width="40">
+                                    <use href="arrowRight"></use>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="primary-ice-cont">
+                        <img
+                            src="images/ice.png"
+                            width="456"
+                            alt="ice"
+                            class="primary-ice"
+                        />
+                    </div>
+                    <div class="hero-numbers">
+                        <p class="number">16</p>
+                        <p class="number-info">cafes</p>
+                        <p class="number">23</p>
+                        <p class="number-info">food trucks</p>
+                    </div>
+                </div>
+                <div class="south-part">
+                    <p class="products-title-descr">100% natural</p>
+                    <h2 class="products-title">products</h2>
+                    <ul class="products-list">
+                        <li class="products-item">
+                            <img
+                                src="images/ice-cream.png"
+                                alt="ice"
+                                width="302"
+                                class="products-img"
+                            />
+                            <h3 class="products-item-title">ice cream</h3>
+                            <p class="products-item-descr">
+                                Soft ice cream with a delicate taste. Made with
+                                milk, cream, sugar and natural stabilizer
+                            </p>
+                            <a href="#" class="products-link">
+                                <!-- onclick="openHeroMenu" -->
+                                <svg class="svgArrowBlack" width="40">
+                                    <use href="#arrowRight"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="products-item">
+                            <img
+                                src="images/ice-coffee.png"
+                                alt="ice"
+                                width="302"
+                                class="products-img"
+                            />
+                            <h3 class="products-item-title">ice coffee</h3>
+                            <p class="products-item-descr">
+                                Fragrant invigorating drink created from 100%
+                                natural ingredients without the use of
+                                preservatives and flavor enhancers
+                            </p>
+                            <a href="#" class="products-link"></a>
+                        </li>
+                        <li class="products-item">
+                            <img
+                                src="images/milkshakes.png"
+                                alt="ice"
+                                width="302"
+                                class="products-img"
+                            />
+                            <h3 class="products-item-title">milkshakes</h3>
+                            <p class="products-item-descr">
+                                Sweet drinks based on milk and ice cream,
+                                supplemented with syrups, fruits, berries and
+                                other sweets of your choice
+                            </p>
+                            <a href="#" class="products-link"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="content">
-            <p class="content-title-descr">
-                tradition and love
-            </p>
-            <h2 class="content-title">how it’s made?</h2>
-            <div class="content-cont">
-                <img src="images/cow.png" alt="cow" width="491" class="content-cont-img">
-                <div class="content-descr-cont">
-                    <p class="content-descr">
-                    Ice is a place where you will become not only a little happier, but also healthier. Health is the main value for us, and we follow it when creating our handmade desserts. 
-                    We use traditional recipes and 100% natural ingredients. Our products are so natural that they can be given to children from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of coffee and 23 milkshakes. 
-                    This is enough to choose ice cream and coffee for any mood!                        
-                    </p>
-                    <a href="#" class="content-descr-btn">
-                        Read more
+            <div class="content">
+                <p class="content-title-descr">tradition and love</p>
+                <h2 class="content-title">how it’s made?</h2>
+                <div class="content-cont">
+                    <img
+                        src="images/cow.png"
+                        alt="cow"
+                        width="491"
+                        class="content-cont-img"
+                    />
+                    <div class="content-descr-cont">
+                        <p class="content-descr">
+                            Ice is a place where you will become not only a
+                            little happier, but also healthier. Health is the
+                            main value for us, and we follow it when creating
+                            our handmade desserts. We use traditional recipes
+                            and 100% natural ingredients. Our products are so
+                            natural that they can be given to children from the
+                            age of three years. Sweets lovers can expect 55
+                            types of ice cream, 15 types of coffee and 23
+                            milkshakes. This is enough to choose ice cream and
+                            coffee for any mood!
+                        </p>
+                        <a href="#" class="content-descr-btn">
+                            Read more
+                            <svg class="svgArrowBlack" width="6">
+                                <use href="#arrowBlack"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="stat-cont">
+                    <ul class="stat-list">
+                        <li class="stat-item">
+                            <span class="stat-icon-bg">
+                                <img
+                                    src="images/cow-icon.svg"
+                                    alt="cow-icon"
+                                    width="36"
+                                    class="stat-icon"
+                                />
+                            </span>
+                            <p class="stat-number">721</p>
+                            <p class="stat-descr">
+                                Aliquam ac dui vel dui vulputate consectetur.
+                                Mauris massa.
+                            </p>
+                        </li>
+                        <li class="stat-item">
+                            <span class="stat-icon-bg">
+                                <img
+                                    src="images/berg.svg"
+                                    alt="berg"
+                                    width="36"
+                                    class="stat-icon"
+                                />
+                            </span>
+                            <p class="stat-number">16kg</p>
+                            <p class="stat-descr">
+                                Aliquam ac dui vel dui vulputate consectetur.
+                                Mauris massa.
+                            </p>
+                        </li>
+                        <li class="stat-item">
+                            <span class="stat-icon-bg">
+                                <img
+                                    src="images/ice-icon.svg"
+                                    alt="ice-icon"
+                                    width="36"
+                                    class="stat-icon"
+                                />
+                            </span>
+                            <p class="stat-number">84</p>
+                            <p class="stat-descr">
+                                Aliquam ac dui vel dui vulputate consectetur.
+                                Mauris massa.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="review-cont">
+                <ul class="rewiew-list">
+                    <li class="rewiew-item">
+                        <img
+                            src="images/rewiew1.png"
+                            alt="ice"
+                            width="1012"
+                            class="rewiew-img"
+                        />
+                        <img
+                            src="images/emily.png"
+                            alt="emily"
+                            width="85"
+                            class="rewiew-foto"
+                        />
+                        <p class="rewiew">
+                            I love visiting your cafe. You prepare the most
+                            delicious ice cream in Los Angeles! In addition, you
+                            have beautiful serving, cozy atmosphere and polite
+                            staff.
+                        </p>
+                        <p class="rewiew-name">Emily, Los Angeles</p>
+                    </li>
+                    <li class="rewiew-item">
+                        <img
+                            src="images/rewiew2.png"
+                            alt="ice"
+                            width="1012"
+                            class="rewiew-img"
+                        />
+                        <img
+                            src="images/bryan.png"
+                            alt="bryan"
+                            width="85"
+                            class="rewiew-foto"
+                        />
+                        <p class="rewiew">
+                            Every day we come to you with friends after classes
+                            in college. We love your ice cream and casual
+                            atmosphere!
+                        </p>
+                        <p class="rewiew-name">Bryan, New-York</p>
+                    </li>
+                    <li class="rewiew-item">
+                        <img
+                            src="images/rewiew3.png"
+                            alt="ice"
+                            width="1012"
+                            class="rewiew-img"
+                        />
+                        <img
+                            src="images/diana.png"
+                            alt="diana"
+                            width="85"
+                            class="rewiew-foto"
+                        />
+                        <p class="rewiew">
+                            Ice cream is my passion! I love your chocolate
+                            hazelnut ice cream! And I really like the excellent
+                            service - always served politely and quickly!
+                        </p>
+                        <p class="rewiew-name">Diana, Chicago</p>
+                    </li>
+                    <div class="rewiew-dots">
+                        <span
+                            class="rewiew-dot"
+                            onclick="currentSlide(1)"
+                        ></span>
+                        <span
+                            class="rewiew-dot"
+                            onclick="currentSlide(2)"
+                        ></span>
+                        <span
+                            class="rewiew-dot"
+                            onclick="currentSlide(3)"
+                        ></span>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="locations-cont">
+                <ul class="loc-list">
+                    <li class="loc item">
+                        <p class="loc-type">CAFE</p>
+                        <p class="loc-sity">Chicago</p>
+                        <address class="loc-address">
+                            10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA
+                        </address>
+                        <div class="loc-shift-cont">
+                            <p class="loc-days">Monday - Friday</p>
+                            <p class="loc-hours">06:00 AM - 10:00 PM</p>
+                            <p class="loc-days">Saturday - Sunday</p>
+                            <p class="loc-hours">08:00 AM - 16:00 PM</p>
+                        </div>
+                        <a href="tel:+610383766284" class="loc-tel"
+                            >+61(0) 383 766 284</a
+                        >
+                        <a href="mailto:noreply@envato.com" class="loc-mail"
+                            >noreply@envato.com</a
+                        >
+                    </li>
+
+                    <li class="loc item">
+                        <p class="loc-type">FOOD TRUCK</p>
+                        <p class="loc-sity">Los Angeles</p>
+                        <address class="loc-address">
+                            1003 Manhattan Ave, Manhattan Beach, CA 90263, USA
+                        </address>
+                        <div class="loc-shift-cont">
+                            <p class="loc-days">Monday - Friday</p>
+                            <p class="loc-hours">06:00 AM - 10:00 PM</p>
+                            <p class="loc-days">Saturday - Sunday</p>
+                            <p class="loc-hours">08:00 AM - 16:00 PM</p>
+                        </div>
+                        <a href="tel:+610383766284" class="loc-tel"
+                            >+61(0) 383 766 284</a
+                        >
+                        <a href="mailto:noreply@envato.com" class="loc-mail"
+                            >noreply@envato.com</a
+                        >
+                    </li>
+
+                    <li class="loc item">
+                        <p class="loc-type">CAFE</p>
+                        <p class="loc-sity">New York</p>
+                        <address class="loc-address">
+                            726 Sterling Pl, Brooklyn, NY 11222, USA
+                        </address>
+                        <div class="loc-shift-cont">
+                            <p class="loc-days">Monday - Friday</p>
+                            <p class="loc-hours">06:00 AM - 10:00 PM</p>
+                            <p class="loc-days">Saturday - Sunday</p>
+                            <p class="loc-hours">08:00 AM - 16:00 PM</p>
+                        </div>
+                        <a href="tel:+610383766284" class="loc-tel"
+                            >+61(0) 383 766 284</a
+                        >
+                        <a href="mailto:noreply@envato.com" class="loc-mail"
+                            >noreply@envato.com</a
+                        >
+                    </li>
+                </ul>
+                <div class="loc-buttons-cont">
+                    <button id="openLocBtn" class="open-loc-btn" type="button">
+                        Our Locations
                         <svg class="svgArrowBlack" width="6">
                             <use href="#arrowBlack"></use>
                         </svg>
-                    </a>
+                    </button>
+                    <button
+                        id="openFranBtn"
+                        class="open-fran-btn"
+                        type="button"
+                    >
+                        Franchise
+                        <svg class="svgArrowBlack" width="6">
+                            <use href="#arrowBlack"></use>
+                        </svg>
+                    </button>
                 </div>
             </div>
-            <div class="stat-cont">
-                <ul class="stat-list">
-                    <li class="stat-item">
-                        <span class="stat-icon-bg">
-                            <img src="images/cow-icon.svg" alt="cow-icon" width="36" class="stat-icon">
-                        </span>
-                        <p class="stat-number">721</p>
-                        <p class="stat-descr">
-                            Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                        </p>
+        </main>
+        <footer class="footer">
+            <div class="footer-descr-cont">
+                <p class="footer-descr-prim">homemade ice cream made</p>
+                <p class="footer-descr-secnd">with passion</p>
+            </div>
+
+            <div class="footer-contacts-cont">
+                <ul class="footer-contacts-list">
+                    <li class="footer-contacts-item">
+                        <a href="#" class="footer-contacts-link">
+                            <svg class="footer-contacts-icon" width="20">
+                                <use href="#github"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="stat-item">
-                        <span class="stat-icon-bg">
-                            <img src="images/berg.svg" alt="berg" width="36" class="stat-icon">
-                        </span>
-                        <p class="stat-number">16kg</p>
-                        <p class="stat-descr">
-                            Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                        </p>
+                    <li class="footer-contacts-item">
+                        <a href="#" class="footer-contacts-link">
+                            <svg class="footer-contacts-icon" width="20">
+                                <use href="#telegram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="stat-item">
-                        <span class="stat-icon-bg">
-                            <img src="images/ice-icon.svg" alt="ice-icon" width="36" class="stat-icon">
-                        </span>
-                        <p class="stat-number">84</p>
-                        <p class="stat-descr">
-                            Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                        </p>
+                    <li class="footer-contacts-item">
+                        <a href="#" class="footer-contacts-link">
+                            <svg class="footer-contacts-icon" width="10">
+                                <use href="#fb"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
+                <p class="footer-contacts-descr">
+                    Feel free to contact
+                    <a href="tel:+610383766284" class="footer-contacts-tel"
+                        >+61 (0) 383 766 284</a
+                    >
+                </p>
             </div>
-        </div>
-        <div class="review-cont">
-            <ul class="rewiew-list">
-                <li class="rewiew-item">
-                    <img src="images/rewiew1.png" alt="ice" width="1012" class="rewiew-img">
-                    <img src="images/emily.png" alt="emily" width="85" class="rewiew-foto">
-                    <p class="rewiew">I love visiting your cafe. You prepare the most delicious ice cream in Los Angeles! In addition, you have beautiful serving, cozy atmosphere and polite staff.
-                    </p>
-                    <p class="rewiew-name">Emily, Los Angeles</p>
-                </li>
-                <li class="rewiew-item">
-                    <img src="images/rewiew2.png" alt="ice" width="1012" class="rewiew-img">
-                    <img src="images/bryan.png" alt="bryan" width="85" class="rewiew-foto">
-                    <p class="rewiew">Every day we come to you with friends after classes in college. We love your ice cream and casual atmosphere!
-                    </p>
-                    <p class="rewiew-name">Bryan, New-York</p>
-                </li>
-                <li class="rewiew-item">
-                    <img src="images/rewiew3.png" alt="ice" width="1012" class="rewiew-img">
-                    <img src="images/diana.png" alt="diana" width="85" class="rewiew-foto">
-                    <p class="rewiew">Ice cream is my passion! I love your chocolate hazelnut ice cream! And I really like the excellent service - always served politely and quickly!
-                    </p>
-                    <p class="rewiew-name">Diana, Chicago</p>
-                </li>
-                <div class="rewiew-dots">
-                    <span class="rewiew-dot" onclick="currentSlide(1)"></span>
-                    <span class="rewiew-dot" onclick="currentSlide(2)"></span>
-                    <span class="rewiew-dot" onclick="currentSlide(3)"></span>
-                </div>
-            </ul>
-        </div>
-
-        <div class="locations-cont">
-            <ul class="loc-list">
-                <li class="loc item">
-                    <p class="loc-type">CAFE</p>
-                    <p class="loc-sity">Chicago</p>
-                    <address class="loc-address">
-                        10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA
-                    </address>
-                    <div class="loc-shift-cont">
-                        <p class="loc-days">Monday - Friday</p>
-                        <p class="loc-hours">06:00 AM - 10:00 PM</p>
-                        <p class="loc-days">Saturday - Sunday</p>
-                        <p class="loc-hours">08:00 AM - 16:00 PM</p>
-                    </div>
-                    <a href="tel:+610383766284" class="loc-tel">+61(0) 383 766 284</a>
-                    <a href="mailto:noreply@envato.com" class="loc-mail">noreply@envato.com</a>
-                </li>
-
-                <li class="loc item">
-                    <p class="loc-type">FOOD TRUCK</p>
-                    <p class="loc-sity">Los Angeles</p>
-                    <address class="loc-address">
-                        1003 Manhattan Ave, Manhattan Beach, CA 90263, USA
-                    </address>
-                    <div class="loc-shift-cont">
-                        <p class="loc-days">Monday - Friday</p>
-                        <p class="loc-hours">06:00 AM - 10:00 PM</p>
-                        <p class="loc-days">Saturday - Sunday</p>
-                        <p class="loc-hours">08:00 AM - 16:00 PM</p>
-                    </div>
-                    <a href="tel:+610383766284" class="loc-tel">+61(0) 383 766 284</a>
-                    <a href="mailto:noreply@envato.com" class="loc-mail">noreply@envato.com</a>
-                </li>
-
-                <li class="loc item">
-                    <p class="loc-type">CAFE</p>
-                    <p class="loc-sity">New York</p>
-                    <address class="loc-address">
-                        726 Sterling Pl, Brooklyn, NY 11222, USA
-                    </address>
-                    <div class="loc-shift-cont">
-                        <p class="loc-days">Monday - Friday</p>
-                        <p class="loc-hours">06:00 AM - 10:00 PM</p>
-                        <p class="loc-days">Saturday - Sunday</p>
-                        <p class="loc-hours">08:00 AM - 16:00 PM</p>
-                    </div>
-                    <a href="tel:+610383766284" class="loc-tel">+61(0) 383 766 284</a>
-                    <a href="mailto:noreply@envato.com" class="loc-mail">noreply@envato.com</a>
-                </li>
-            </ul>
-            <div class="loc-buttons-cont">
-                <button id="openLocBtn" class="open-loc-btn" type="button">
-                    Our Locations
-                    <svg class="svgArrowBlack" width="6">
-                        <use href="#arrowBlack"></use>
-                    </svg>
-                </button>
-                <button id="openFranBtn" class="open-fran-btn" type="button">
-                    Franchise
-                    <svg class="svgArrowBlack" width="6">
-                        <use href="#arrowBlack"></use>
-                    </svg>
-                </button>
+            <div class="footer-bottom">
+                <p class="footer-bottom-descr">
+                    &copy; 2024 - IceCream. All Rights Reserved.
+                </p>
             </div>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="footer-descr-cont">
-            <p class="footer-descr-prim">homemade ice cream made </p>
-            <p class="footer-descr-secnd">with passion</p>
-        </div>
+        </footer>
 
-        <div class="footer-contacts-cont">
-            <ul class="footer-contacts-list">
-                <li class="footer-contacts-item"><a href="#" class="footer-contacts-link">
-                    <svg class="footer-contacts-icon" width="20">
-                        <use href="#github"></use>
-                    </svg>
-                </a></li>
-                <li class="footer-contacts-item"><a href="#" class="footer-contacts-link">
-                    <svg class="footer-contacts-icon" width="20">
-                        <use href="#telegram"></use>
-                    </svg>
-                </a></li>
-                <li class="footer-contacts-item"><a href="#" class="footer-contacts-link">
-                    <svg class="footer-contacts-icon" width="10">
-                        <use href="#fb"></use>
-                    </svg>
-                </a></li>
-            </ul>
-            <p class="footer-contacts-descr">
-                Feel free to contact <a href="tel:+610383766284" class="footer-contacts-tel">+61 (0) 383 766 284</a>
-            </p>
-        </div>
-        <div class="footer-bottom">
-            <p class="footer-bottom-descr">
-                &copy; 2024 - IceCream. All Rights Reserved.
-            </p>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-</body>
+        <script src="js/main.js"></script>
+    </body>
 </html>
