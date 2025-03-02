@@ -47,3 +47,24 @@ body {
 .nav-item-link:last-child {
     margin-right: 0;
 }
+
+.button-buy {
+    display: flex;
+    width: 152px;
+    height: 42px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.66vw;
+    gap: 8px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    background-color: var(--yellow);
+}
+
+.svgArrowRight {
+    width: 7px;
+    height: 10px;
+}
