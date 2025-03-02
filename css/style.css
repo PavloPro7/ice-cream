@@ -2,6 +2,7 @@
     --green: #84a178;
     --yellow: #f8d24e;
     --white: #fff;
+    --btngreen: #0A8817;
 }
 
 body {
@@ -62,9 +63,16 @@ body {
     font-weight: 600;
     border: none;
     background-color: var(--yellow);
+    transition: 0.3s background-color ease;
 }
-
 .svgArrowRight {
     width: 7px;
     height: 10px;
+}
+.button-buy:hover {
+    background-color: var(--btngreen);
+}
+.button-buy:focus {
+    background-color: var(--btngreen);
+    color: var(--white);
 }
