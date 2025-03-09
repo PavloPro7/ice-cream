@@ -95,7 +95,7 @@ body {
 .north-part {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .slogan {
@@ -133,4 +133,26 @@ body {
     text-decoration: underline;
     color: var(--btngreen);
     width: 11em;
+}
+
+.hero-descr-cont {
+    margin-top: 2.625em;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.descr-cont {
+}
+.hero-descr {
+    color: var(--white);
+    font-size: 0.875em;
+    line-height: 1.4em;
+    width: 14.5em;
+    margin: 0;
+}
+
+/*RIGHT SIDE*/
+.right-side {
+    display: flex;
 }

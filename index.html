@@ -49,7 +49,7 @@
                 </defs>
             </svg>
 
-            <!--           <svg
+            <svg
                 width="41"
                 height="16"
                 viewBox="0 0 41 16"
@@ -57,14 +57,14 @@
                 xmlns="http://www.w3.org/2000/svg"
             >
                 <defs>
-                    <symbol id="arrowRight">
+                    <symbol id="arrowBig">
                         <path
                             d="M40.7071 8.70711C41.0976 8.31658 41.0976 7.68342 40.7071 7.29289L34.3431 0.928932C33.9526 0.538408 33.3195 0.538408 32.9289 0.928932C32.5384 1.31946 32.5384 1.95262 32.9289 2.34315L38.5858 8L32.9289 13.6569C32.5384 14.0474 32.5384 14.6805 32.9289 15.0711C33.3195 15.4616 33.9526 15.4616 34.3431 15.0711L40.7071 8.70711ZM0 9H40V7H0V9Z"
                             fill="#FCFCFC"
                         />
                     </symbol>
                 </defs>
- </svg> -->
+            </svg>
 
             <svg
                 width="7"
@@ -182,35 +182,47 @@
                         </div>
                         <div class="hero-descr-cont">
                             <img
+                                class="hero-descr-img"
                                 src="images/manyice.png"
                                 alt="many ice"
                                 widht="225"
+                                height="225"
                             />
-                            <p class="hero-descr">
-                                Indulge in a scoop of ice cream made with
-                                passion and treat your taste buds to an
-                                unforgettable experience!
-                            </p>
-                            <span class="arrow-right" onclick="openHeroMenu">
-                                <svg class="svgArrow" width="40">
-                                    <use href="arrowRight"></use>
-                                </svg>
-                            </span>
+                            <div class="descr-cont">
+                                <p class="hero-descr">
+                                    Indulge in a scoop of ice cream made with
+                                    passion and treat your taste buds to an
+                                    unforgettable experience!
+                                </p>
+                                <span
+                                    class="arrow-right"
+                                    onclick="openHeroMenu"
+                                >
+                                    <svg
+                                        class="svgArrow"
+                                        width="40"
+                                        height="16"
+                                    >
+                                        <use href="#arrowBig"></use>
+                                    </svg>
+                                </span>
+                            </div>
                         </div>
                     </div>
-                    <div class="primary-ice-cont">
+                    <div class="right-side">
                         <img
                             src="images/ice.png"
                             width="456"
+                            height="560"
                             alt="ice"
                             class="primary-ice"
                         />
-                    </div>
-                    <div class="hero-numbers">
-                        <p class="number">16</p>
-                        <p class="number-info">cafes</p>
-                        <p class="number">23</p>
-                        <p class="number-info">food trucks</p>
+                        <div class="hero-numbers">
+                            <p class="number">16</p>
+                            <p class="number-info">cafes</p>
+                            <p class="number">23</p>
+                            <p class="number-info">food trucks</p>
+                        </div>
                     </div>
                 </div>
                 <div class="south-part">
