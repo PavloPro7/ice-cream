@@ -13,7 +13,7 @@ html {
 body {
     background-color: var(--green);
     font-family: "Montserrat", serif;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0;
     margin: 0;
     /* font-family: "DM Sans", serif; */
     /* font-family: "Seymour One", serif; */
@@ -26,6 +26,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 0 1em;
 }
 
 .nav-cont {
@@ -94,8 +95,17 @@ body {
 
 .north-part {
     display: flex;
+    padding: 0 1em;
     flex-direction: row;
     justify-content: space-between;
+    background-image:
+        url("../images/bg-img-1.svg"), url("../images/bg-img-2.svg"),
+        url("../images/bg-img-3.svg");
+    background-repeat: no-repeat;
+    background-position:
+        left -1em bottom 1.0625em,
+        left 13.625em bottom 2.9375em,
+        right bottom 0.2em;
 }
 
 .slogan {
