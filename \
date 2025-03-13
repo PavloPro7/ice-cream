@@ -1,0 +1,59 @@
+:root {
+	--green: #84A178;
+    --yellow: #F8D24E;
+    --white: #FFF;
+}
+
+body {
+    background-color: var(--green);
+    font-family: "Montserrat", serif;
+    padding: 0.66vw 1.33vw;
+    margin: 0;
+    /* font-family: "DM Sans", serif; */
+    /* font-family: "Seymour One", serif; */
+}
+
+.svg-cont {
+	display: none;
+}
+
+.header {
+    display: flex;
+    
+}
+
+.nav-cont {
+    padding: 0 25.66vw;
+    
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    
+}
+.nav-item {
+    margin-right: 2.33vw;
+}
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
