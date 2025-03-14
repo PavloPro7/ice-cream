@@ -104,7 +104,7 @@ body {
     background-repeat: no-repeat;
     background-position:
         left bottom,
-        left 13.625em bottom 2.9375em,
+        center bottom 2.9375em,
         right bottom 0.2em;
 }
 
@@ -152,8 +152,6 @@ body {
     align-items: center;
 }
 
-.descr-cont {
-}
 .hero-descr {
     color: var(--white);
     font-size: 0.875em;
@@ -192,4 +190,22 @@ body {
     background-color: var(--white);
     background-image: url("../images/bg-of-south-part.svg");
     background-position: top -15em center;
+}
+
+.products-title-descr {
+    font-size: 1.875em;
+    text-transform: uppercase;
+    letter-spacing: calc(1em / 25);
+    font-weight: 800;
+    text-align: center;
+    margin: 2em 0 0 0;
+}
+
+.products-title {
+    font-family: "Seymour One";
+    font-size: 2.25em;
+    margin: 0.33em 0 3.33em 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: calc(1em / 16.66);
 }
