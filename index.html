@@ -53,14 +53,13 @@
                 width="41"
                 height="16"
                 viewBox="0 0 41 16"
-                fill="black"
                 xmlns="http://www.w3.org/2000/svg"
             >
                 <defs>
                     <symbol id="arrowBig">
                         <path
                             d="M40.7071 8.70711C41.0976 8.31658 41.0976 7.68342 40.7071 7.29289L34.3431 0.928932C33.9526 0.538408 33.3195 0.538408 32.9289 0.928932C32.5384 1.31946 32.5384 1.95262 32.9289 2.34315L38.5858 8L32.9289 13.6569C32.5384 14.0474 32.5384 14.6805 32.9289 15.0711C33.3195 15.4616 33.9526 15.4616 34.3431 15.0711L40.7071 8.70711ZM0 9H40V7H0V9Z"
-                            fill="#FCFCFC"
+                            fill="currentFill"
                         />
                     </symbol>
                 </defs>
@@ -230,12 +229,14 @@
                     <h2 class="products-title">products</h2>
                     <ul class="products-list">
                         <li class="products-item">
-                            <img
-                                src="images/ice-cream.png"
-                                alt="ice"
-                                width="302"
-                                class="products-img"
-                            />
+                            <div class="products-img-cont">
+                                <img
+                                    src="images/ice-cream.png"
+                                    alt="ice"
+                                    width="302"
+                                    class="products-img"
+                                />
+                            </div>
                             <h3 class="products-item-title">ice cream</h3>
                             <p class="products-item-descr">
                                 Soft ice cream with a delicate taste. Made with
@@ -244,39 +245,51 @@
                             <a href="#" class="products-link">
                                 <!-- onclick="openHeroMenu" -->
                                 <svg class="svgArrowBlack" width="40">
-                                    <use href="#arrowRight"></use>
+                                    <use href="#arrowBig"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="products-item">
-                            <img
-                                src="images/ice-coffee.png"
-                                alt="ice"
-                                width="302"
-                                class="products-img"
-                            />
+                            <div class="products-img-cont">
+                                <img
+                                    src="images/ice-coffee.png"
+                                    alt="ice"
+                                    width="302"
+                                    class="products-img"
+                                />
+                            </div>
                             <h3 class="products-item-title">ice coffee</h3>
                             <p class="products-item-descr">
                                 Fragrant invigorating drink created from 100%
                                 natural ingredients without the use of
                                 preservatives and flavor enhancers
                             </p>
-                            <a href="#" class="products-link"></a>
+                            <a href="#" class="products-link">
+                                <svg class="svgArrowBlack" width="40">
+                                    <use href="#arrowBig"></use>
+                                </svg>
+                            </a>
                         </li>
                         <li class="products-item">
-                            <img
-                                src="images/milkshakes.png"
-                                alt="ice"
-                                width="302"
-                                class="products-img"
-                            />
+                            <div class="products-img-cont">
+                                <img
+                                    src="images/milkshakes.png"
+                                    alt="ice"
+                                    width="302"
+                                    class="products-img"
+                                />
+                            </div>
                             <h3 class="products-item-title">milkshakes</h3>
                             <p class="products-item-descr">
                                 Sweet drinks based on milk and ice cream,
                                 supplemented with syrups, fruits, berries and
                                 other sweets of your choice
                             </p>
-                            <a href="#" class="products-link"></a>
+                            <a href="#" class="products-link">
+                                <svg class="svgArrowBlack" width="40">
+                                    <use href="#arrowBig"></use>
+                                </svg>
+                            </a>
                         </li>
                     </ul>
                 </div>

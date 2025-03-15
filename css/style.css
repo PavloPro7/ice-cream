@@ -4,6 +4,7 @@
     --white: #fff;
     --btngreen: #0a8817;
     --disabled: #ababab;
+    --black: #131313;
 }
 
 html {
@@ -160,6 +161,9 @@ body {
     margin: 0;
 }
 
+.svgArrow {
+    fill: var(--white);
+}
 /*RIGHT SIDE*/
 .right-side {
     display: flex;
@@ -190,6 +194,7 @@ body {
     background-color: var(--white);
     background-image: url("../images/bg-of-south-part.svg");
     background-position: top -15em center;
+    padding: 0 1em 0 1em;
 }
 
 .products-title-descr {
@@ -208,4 +213,13 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: calc(1em / 16.66);
+}
+
+.products-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.svgArrowBlack {
+    fill: var(--black);
 }
