@@ -5,6 +5,9 @@
     --btngreen: #0a8817;
     --disabled: #ababab;
     --black: #131313;
+    --prod1: #aec6a5;
+    --prod2: #efd478;
+    --prod3: #d6936d;
 }
 
 html {
@@ -220,6 +223,19 @@ body {
     list-style-type: none;
 }
 
+.products-item {
+}
+
+.products-item:nth-child(1) {
+    background-color: var(--prod1);
+}
+
+.products-item:nth-child(2) {
+    background-color: var(--prod2);
+}
+.products-item:nth-child(3) {
+    background-color: var(--prod3);
+}
 .svgArrowBlack {
     fill: var(--black);
 }
