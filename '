@@ -250,14 +250,8 @@ body {
 .products-img-cont {
     margin-top: -10.4375em;
     background-color: var(--black);
-    position: relative;
-    width: 18.875em;
-    height: 18.875em;
-    border-radius: 50%;
 }
 
 .products-img {
-    position: absolute;
-    right: 0;
-    top: -1em;
+    margin-top: -1em;
 }
