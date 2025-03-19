@@ -197,7 +197,10 @@ body {
     background-color: var(--white);
     background-image: url("../images/bg-of-south-part.svg");
     background-position: top -15em center;
-    padding: 0 1em 0 1em;
+    padding: 0 1em 3.75em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .products-title-descr {
@@ -222,14 +225,14 @@ body {
     display: flex;
     list-style-type: none;
     gap: 1.8125em;
+    margin: 10.4375em 0 0 0;
+    padding: 0;
 }
 
 .products-item {
-    width: 23.125em;
     border-radius: 1.5em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
 }
 
@@ -254,10 +257,26 @@ body {
     width: 18.875em;
     height: 18.875em;
     border-radius: 50%;
+    align-self: center;
 }
 
 .products-img {
     position: absolute;
     right: 0;
     top: -1em;
+}
+
+.products-item:nth-child(1) .products-img-cont {
+    background-color: var(--prod1);
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.1);
+}
+
+.products-item:nth-child(2) .products-img-cont {
+    background-color: var(--prod2);
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.1);
+}
+
+.products-item:nth-child(3) .products-img-cont {
+    background-color: var(--prod3);
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.1);
 }
