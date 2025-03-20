@@ -284,6 +284,24 @@ body {
     box-shadow: 0 1em 2em rgba(0, 0, 0, 0.1);
 }
 
+.products-item-title {
+    text-transform: uppercase;
+    font-size: 1.875em;
+    margin: 1em 0 2.2em 0;
+}
+
 .products-item-descr {
     margin: 0 4em 3.125em 4em;
+    letter-spacing: calc(1em / 25);
+    line-height: 1.76em;
+}
+
+.products-link {
+    margin-top: auto;
+    margin-bottom: 3.75em;
+    height: 1em;
+}
+
+.svgArrowBlack {
+    height: 1em;
 }
