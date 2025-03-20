@@ -227,6 +227,7 @@ body {
     gap: 1.8125em;
     margin: 10.4375em 0 0 0;
     padding: 0;
+    align-items: stretch;
 }
 
 .products-item {
@@ -234,6 +235,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 0;
+    flex: 1;
 }
 
 .products-item:nth-child(1) {
@@ -279,4 +282,8 @@ body {
 .products-item:nth-child(3) .products-img-cont {
     background-color: var(--prod3);
     box-shadow: 0 1em 2em rgba(0, 0, 0, 0.1);
+}
+
+.products-item-descr {
+    margin: 0 4em 3.125em 4em;
 }
