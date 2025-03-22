@@ -329,3 +329,50 @@ body {
     color: var(--white);
     text-transform: uppercase;
 }
+
+.content-cont {
+    display: flex;
+    flex-direction: row;
+    padding: 0 2em 3.75em 1em;
+    gap: 2.375em;
+}
+
+.content-img-cont {
+    background-color: var(--yellow);
+    border-radius: 50%;
+    min-width: 30.625em;
+    height: 30.625em;
+    position: relative;
+    margin-bottom: 1.625em;
+}
+
+.content-cont-img {
+    position: absolute;
+    bottom: -1.625em;
+}
+
+.content-descr-cont {
+    padding-top: 5.625em;
+}
+
+.content-descr {
+    max-width: 32em;
+    color: var(--white);
+    line-height: 1.76em;
+    letter-spacing: calc(1em / 25);
+}
+
+.content-descr-btn {
+    text-decoration: none;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    font-size: 0.875em;
+    font-weight: 600;
+    border-radius: 0.625em;
+    width: 10.25em;
+    height: 2.625em;
+    gap: 0.375em;
+}
