@@ -8,6 +8,7 @@
     --prod1: #aec6a5;
     --prod2: #efd478;
     --prod3: #d6936d;
+    --btngrey: #D9D9D9;
 }
 
 html {
@@ -440,6 +441,7 @@ body {
     background-color: var(--white);
     background-image: url("../images/bg-of-south-part.svg");
     background-position: top -15em center;
+    padding-bottom: 8em; /* reserv for elements below */
 }
 
 .review-list {
@@ -452,10 +454,55 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -6.125em;
+    margin: -6.125em 2em 0 2em;
+    text-align: center;
 }
 
 .review-item:nth-child(2),
 .review-item:nth-child(3) {
     display: none;
+}
+
+.review-img {
+    margin-bottom: 8.75em;
+    border-radius: 1.5em;
+}
+
+.review-foto {
+    margin-bottom: 2em;
+}
+
+.review {
+    max-width: 60.5em;
+    margin: 0 0 2em 0;
+    padding: 2.625em 4.625em;
+    background-color: var(--green);
+    color: var(--white);
+    font-weight: 500;
+    border-radius: 1.5em;
+    line-height: 1.86em;
+}
+
+.review-name {
+    margin: 0 0 2em 0;
+    font-weight: 500;
+    line-height: 1.86em;
+}
+
+.review-dots {
+    display: flex;
+    justify-content: center;
+    gap: 1.125em;
+}
+
+.review-dot {
+    width: 12px;
+    height: 12px;
+    background-color: var(--btngrey);
+    border-radius: 50%;
+    margin-bottom: 6.25em;
+}
+
+.review-dot:nth-child(1) {
+    background-color: var(--green);
 }
