@@ -8,7 +8,7 @@
     --prod1: #aec6a5;
     --prod2: #efd478;
     --prod3: #d6936d;
-    --btngrey: #D9D9D9;
+    --btngrey: #d9d9d9;
 }
 
 html {
@@ -503,6 +503,14 @@ body {
     margin-bottom: 6.25em;
 }
 
-.review-dot:nth-child(1) {
+.review-item:nth-child(1) .review-dot:nth-child(1) {
+    background-color: var(--green);
+}
+
+.review-item:nth-child(2) .review-dot:nth-child(2) {
+    background-color: var(--green);
+}
+
+.review-item:nth-child(3) .review-dot:nth-child(3) {
     background-color: var(--green);
 }
