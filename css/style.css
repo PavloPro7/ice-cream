@@ -514,3 +514,39 @@ body {
 .review-item:nth-child(3) .review-dot:nth-child(3) {
     background-color: var(--green);
 }
+
+/* Locations */
+
+.locations-cont {
+    margin: -8em 1em 7.5em 1em;
+}
+
+.loc-list {
+    display: flex;
+    list-style-type: none;
+    gap: 2em;
+}
+
+.loc-item {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 1.5em;
+    max-width: 23em;
+    padding: 2.5em;
+    font-weight: 500;
+}
+
+.loc-type {
+    background-color: var(--yellow);
+    padding: 0.25em 0.875em;
+    border-radius: 0.375em;
+    margin-bottom: 2em;
+    line-height: 1.4em;
+    letter-spacing: calc(1em / 25);
+}
+
+.loc-sity {
+    line-height: 1.86em;
+    margin-bottom: 0.5em;
+}
