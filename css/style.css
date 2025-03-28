@@ -9,6 +9,8 @@
     --prod2: #efd478;
     --prod3: #d6936d;
     --btngrey: #d9d9d9;
+    --locgrey: #e1e1e1;
+    --lochours: #ababab;
 }
 
 html {
@@ -525,6 +527,7 @@ body {
     display: flex;
     list-style-type: none;
     gap: 2em;
+    justify-content: center;
 }
 
 .loc-item {
@@ -535,6 +538,9 @@ body {
     max-width: 23em;
     padding: 2.5em;
     font-weight: 500;
+    display: inline-block;
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.1);
+    flex: 1;
 }
 
 .loc-type {
@@ -543,10 +549,55 @@ body {
     border-radius: 0.375em;
     margin-bottom: 2em;
     line-height: 1.4em;
-    letter-spacing: calc(1em / 25);
+    letter-spacing: calc(2em / 25);
+    display: inline-block;
 }
 
 .loc-sity {
     line-height: 1.86em;
     margin-bottom: 0.5em;
+}
+
+.loc-address {
+    font-style: normal;
+    color: var(--prod3);
+    width: 79%;
+    cursor: pointer;
+    letter-spacing: calc(1em / 25);
+    line-height: 1.83em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid var(--locgrey);
+    margin-bottom: 2em;
+}
+
+.loc-address:hover,
+.loc-address:focus {
+    text-decoration: underline;
+}
+
+.loc-days {
+    margin: 0;
+    line-height: 1.86em;
+}
+
+.loc-hours {
+    margin: 0.375em 0 0.75em 0;
+    color: var(--lochours);
+    line-height: 1.86em;
+}
+
+.loc-hours:last-child {
+    margin-bottom: 2em;
+}
+
+.loc-tel {
+    padding-top: 2em;
+    border-top: 1px solid var(--locgrey);
+    margin-bottom: 0.25em;
+}
+
+.loc-tel,
+.loc-mail {
+    text-decoration: none;
+    color: var(--black);
 }
