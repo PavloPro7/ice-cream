@@ -561,7 +561,7 @@ body {
 .loc-address {
     font-style: normal;
     color: var(--prod3);
-    width: 79%;
+    padding-right: 21%;
     cursor: pointer;
     letter-spacing: calc(1em / 25);
     line-height: 1.83em;
@@ -588,11 +588,12 @@ body {
 
 .loc-hours:last-child {
     margin-bottom: 2em;
+    border-bottom: 1px solid var(--locgrey);
+    padding-bottom: 2em;
 }
 
 .loc-tel {
     padding-top: 2em;
-    border-top: 1px solid var(--locgrey);
     margin-bottom: 0.25em;
 }
 
@@ -600,4 +601,6 @@ body {
 .loc-mail {
     text-decoration: none;
     color: var(--black);
+    line-height: 1.5em;
+    letter-spacing: 0;
 }
