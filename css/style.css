@@ -528,6 +528,7 @@ body {
     list-style-type: none;
     gap: 2em;
     justify-content: center;
+    margin: 0;
 }
 
 .loc-item {
@@ -603,4 +604,35 @@ body {
     color: var(--black);
     line-height: 1.5em;
     letter-spacing: 0;
+}
+
+.loc-buttons-cont {
+    margin: 3.75em auto 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.open-loc-btn,
+.open-fran-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    width: 196px;
+    height: 42px;
+    border-radius: 10px;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.open-loc-btn {
+    background-color: var(--yellow);
+    border: none;
+}
+
+.open-fran-btn {
+    background-color: var(--green);
+    border: 2.5px solid var(--yellow);
 }
