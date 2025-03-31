@@ -630,9 +630,37 @@ body {
 .open-loc-btn {
     background-color: var(--yellow);
     border: none;
+    transition: background-color 0.3s ease;
+}
+
+.open-loc-btn:hover,
+.open-loc-btn:focus {
+    background-color: var(--btngreen);
+}
+
+.open-loc-btn:focus {
+    color: var(--white);
+}
+
+.open-loc-btn:disabled {
+    background-color: var(--disabled);
 }
 
 .open-fran-btn {
     background-color: var(--green);
     border: 2.5px solid var(--yellow);
+    transition: border-color 0.3s ease;
+}
+
+.open-fran-btn:hover,
+.open-fran-btn:focus {
+    border-color: var(--btngreen);
+}
+
+.open-fran-btn:focus {
+    color: var(--white);
+}
+
+.open-fran-btn:disabled {
+    border-color: var(--disabled);
 }
