@@ -664,3 +664,32 @@ body {
 .open-fran-btn:disabled {
     border-color: var(--disabled);
 }
+
+/* FOOTER */
+
+.footer {
+    padding: 0 1em 0 1em;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--locgrey);
+}
+
+.footer-descr-big {
+    font-size: 1.875em;
+    text-transform: uppercase;
+    margin: 0 0 0.47em 0;
+    color: var(--white);
+    letter-spacing: calc(1em / 25);
+}
+
+.footer-descr-small {
+    font-size: 3.625em;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--white);
+    letter-spacing: calc(1em / 16.67);
+}
