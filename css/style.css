@@ -140,6 +140,20 @@ body {
     background-color: var(--green);
     border-radius: 0.7em;
     border: 2px solid var(--yellow);
+    transition: border-color 0.3s ease;
+}
+
+.button-products:hover,
+.button-products:focus {
+    border-color: var(--btngreen);
+}
+
+.button-products:focus {
+    color: var(--white);
+}
+
+.button-products:disabled {
+    border-color: var(--disabled);
 }
 
 .button-about {
@@ -148,8 +162,21 @@ body {
     background-color: var(--green);
     border: none;
     text-decoration: underline;
-    color: var(--btngreen);
+    color: var(--yellow);
     width: 11em;
+    transition: color 0.3s ease;
+}
+
+.button-about:hover {
+    color: var(--btngreen);
+}
+
+.button-about:focus {
+    color: var(--white);
+}
+
+.button-about:disabled {
+    color: var(--btngrey);
 }
 
 .hero-descr-cont {
