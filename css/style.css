@@ -722,3 +722,34 @@ body {
     color: var(--white);
     letter-spacing: calc(1em / 16.67);
 }
+
+.footer-contacts-cont {
+    background-color: var(--white);
+}
+
+.footer-contacts-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 1.125em 0 0 0;
+    justify-content: flex-end;
+    gap: 1.875em;
+}
+
+.footer-contacts-item {
+    background-color: var(--yellow);
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contacts-item:nth-child(2) .footer-contacts-link {
+    height: 16px;
+}
+
+.footer-contacts-icon {
+    height: 20px;
+}
