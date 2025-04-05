@@ -11,6 +11,7 @@
     --btngrey: #d9d9d9;
     --locgrey: #e1e1e1;
     --lochours: #ababab;
+    --botgrey: #7a7a7a;
 }
 
 html {
@@ -760,4 +761,14 @@ body {
 .footer-contacts-tel {
     text-decoration: none;
     color: var(--white);
+}
+
+.footer-bottom-descr {
+    font-size: 0.75em;
+    margin: 1em 0 0 0;
+    text-align: center;
+    color: var(--botgrey);
+    letter-spacing: calc(1em / 50);
+    line-height: 1.86em;
+    font-weight: 700;
 }
