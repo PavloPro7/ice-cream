@@ -723,10 +723,6 @@ body {
     letter-spacing: calc(1em / 16.67);
 }
 
-.footer-contacts-cont {
-    background-color: var(--white);
-}
-
 .footer-contacts-list {
     list-style-type: none;
     display: flex;
@@ -752,4 +748,16 @@ body {
 
 .footer-contacts-icon {
     height: 20px;
+}
+
+.footer-contacts-descr {
+    font-weight: 700;
+    letter-spacing: calc(1em / 50);
+    line-height: 1.86em;
+    margin: 2.5em 0 3.75em 0;
+}
+
+.footer-contacts-tel {
+    text-decoration: none;
+    color: var(--white);
 }
