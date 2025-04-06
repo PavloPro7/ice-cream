@@ -747,7 +747,7 @@ body {
     height: 16px;
 }
 
-.footer-contacts-icon {
+.footer-contacts-item:not(:nth-child(2)) .footer-contacts-link {
     height: 20px;
 }
 
