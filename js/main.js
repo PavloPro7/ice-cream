@@ -30,6 +30,12 @@ function switchSlides3() {
 
 reviewDot3.onclick = switchSlides3;
 
+const buyModal = document.querySelector(".buy-modal-content");
+
 function openBuyNow() {
-    document.querySelector(".buy-modal-content").style.display = "block";
+    buyModal.style.display = "block";
+}
+
+function closeBuyNow() {
+    buyModal.style.display = "none";
 }

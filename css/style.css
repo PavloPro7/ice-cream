@@ -775,4 +775,5 @@ body {
 
 .buy-modal-content {
     display: none;
+    position: fixed;
 }
