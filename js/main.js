@@ -29,3 +29,7 @@ function switchSlides3() {
 }
 
 reviewDot3.onclick = switchSlides3;
+
+function openBuyNow() {
+    document.querySelector(".buy-modal-content").style.display = "block";
+}

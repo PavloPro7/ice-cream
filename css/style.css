@@ -772,3 +772,7 @@ body {
     line-height: 1.86em;
     font-weight: 700;
 }
+
+.buy-modal-content {
+    display: none;
+}
