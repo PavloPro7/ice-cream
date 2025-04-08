@@ -793,4 +793,45 @@ body {
     flex-direction: column;
     width: clamp(20em, 47.3vw, 35.5em);
     height: 40.25em;
+    border: 1px solid var(--yellow);
+    border-radius: 10px;
+}
+
+.ice-list {
+    display: flex;
+    list-style-type: none;
+    gap: 2em;
+    padding: 0;
+}
+
+.ice-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 12.375em;
+}
+
+.ice-item-cont {
+    height: 8.25em;
+    margin-bottom: -3.75em;
+}
+
+.ice-item-check {
+    width: 132px;
+    height: 135px;
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.ice-checkmark {
+    z-index: 6;
+    position: absolute;
+    bottom: 0;
+    width: 8.25em;
+    height: 8.4375em;
+    border: 2px solid var(--black);
+    border-radius: 16px;
 }
