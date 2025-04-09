@@ -824,6 +824,8 @@ body {
     margin: 0;
     position: absolute;
     bottom: 0;
+    z-index: 9;
+    opacity: 0;
 }
 
 .ice-checkmark {
@@ -834,4 +836,28 @@ body {
     height: 8.4375em;
     border: 2px solid var(--black);
     border-radius: 16px;
+}
+
+.ice-item:nth-child(1) .ice-checkmark {
+    border-color: var(--prod1);
+}
+
+.ice-item:nth-child(1) .ice-item-check:checked + .ice-checkmark {
+    background-color: var(--prod1);
+}
+
+.ice-item:nth-child(2) .ice-checkmark {
+    border-color: var(--prod2);
+}
+
+.ice-item:nth-child(2) .ice-item-check:checked + .ice-checkmark {
+    background-color: var(--prod2);
+}
+
+.ice-item:nth-child(3) .ice-checkmark {
+    border-color: var(--prod3);
+}
+
+.ice-item:nth-child(3) .ice-item-check:checked + .ice-checkmark {
+    background-color: var(--prod3);
 }
