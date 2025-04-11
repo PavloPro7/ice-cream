@@ -12,6 +12,7 @@
     --locgrey: #e1e1e1;
     --lochours: #ababab;
     --botgrey: #7a7a7a;
+    --inputcream: #fcf8eb;
 }
 
 html {
@@ -802,6 +803,7 @@ body {
     list-style-type: none;
     gap: 2em;
     padding: 0;
+    margin: 0;
 }
 
 .ice-item {
@@ -886,4 +888,29 @@ body {
 
 label {
     cursor: pointer;
+}
+
+.buy-name-input,
+.buy-phone-input,
+.buy-comment-input {
+    font-size: 0.875em;
+    padding: 0.79em 1.1429em;
+    width: 26.28em;
+    color: var(--black);
+    background-color: var(--inputcream);
+    border: 1px solid var(--green);
+    border-radius: 10px;
+    line-height: 1.4em;
+}
+
+.buy-name-input {
+    margin-top: 2.857em;
+}
+
+.buy-phone-input {
+    margin: 1.1428em 0;
+}
+
+.buy-comment-input {
+    margin-bottom: 2.2856em;
 }
