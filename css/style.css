@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --green: #84a178;
     --yellow: #f8d24e;
@@ -792,10 +796,12 @@ body {
     align-items: center;
     background-color: var(--white);
     flex-direction: column;
-    width: clamp(20em, 47.3vw, 35.5em);
+    width: 35.5em;
     height: 40.25em;
     border: 1px solid var(--yellow);
     border-radius: 10px;
+    padding: 0.75em 0.75em 2em 0.75em;
+    box-sizing: border-box;
 }
 
 .ice-list {
@@ -890,17 +896,23 @@ label {
     cursor: pointer;
 }
 
+input::placeholder,
+textarea::placeholder {
+    color: var(--black);
+}
+
 .buy-name-input,
 .buy-phone-input,
 .buy-comment-input {
     font-size: 0.875em;
     padding: 0.79em 1.1429em;
-    width: 26.28em;
+    width: 368px;
     color: var(--black);
     background-color: var(--inputcream);
     border: 1px solid var(--green);
     border-radius: 10px;
     line-height: 1.4em;
+    min-width: 0;
 }
 
 .buy-name-input {
@@ -913,4 +925,5 @@ label {
 
 .buy-comment-input {
     margin-bottom: 2.2856em;
+    font-size: 1.14285714em;
 }
