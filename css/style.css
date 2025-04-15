@@ -951,4 +951,18 @@ textarea::placeholder {
     background-color: var(--yellow);
     border-radius: 10px;
     border: none;
+    transition: 0.3s background-color ease;
+}
+
+.buy-submit:hover,
+.buy-submit:focus {
+    background-color: var(--btngreen);
+}
+
+.buy-submit:focus {
+    color: white;
+}
+
+.buy-submit:disable {
+    background-color: var(--disabled);
 }
