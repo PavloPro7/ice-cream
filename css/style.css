@@ -811,6 +811,11 @@ body {
     right: 0.75em;
 }
 
+.closeSvg {
+    width: 24px;
+    height: 24px;
+}
+
 .buy-title {
     font-family: "Seymour One";
     font-size: 1.25em;
