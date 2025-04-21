@@ -809,11 +809,23 @@ body {
     position: absolute;
     top: 0.75em;
     right: 0.75em;
+    padding: 0;
+    height: auto;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    border: none;
+    transition: 0.3s fill ease;
 }
 
-.closeSvg {
-    width: 24px;
+.closeModal {
     height: 24px;
+    width: 24px;
+    fill: var(--black);
+}
+.closeModal:hover,
+.closeModal:focus {
+    fill: var(--green);
 }
 
 .buy-title {
@@ -909,6 +921,12 @@ body {
 
 .ice-item:nth-child(3) .ice-item-check:checked + .ice-checkmark {
     background-color: var(--prod3);
+}
+
+.ice-checkmark:hover {
+    transform: scaleX(1.005);
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
 }
 
 label {
