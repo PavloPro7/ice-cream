@@ -1,6 +1,9 @@
 # Ice Cream Landing Page
 
 This is a responsive landing page layout built with HTML and CSS, showcasing an ice cream brand website with clean UI and animated modal window.
+Made as part of my frontend learning journey.
+
+🔗 Live demo: https://pavlopro7.github.io/ice-cream/  
 
 ## Technologies
 
