@@ -2,7 +2,7 @@
 
 This is a responsive landing page layout built with HTML and CSS, showcasing an ice cream brand website with clean UI and animated modal window.
 
-## 🛠️ Technologies
+## Technologies
 
 - HTML5
 - CSS3
