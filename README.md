@@ -14,7 +14,7 @@ Made as part of my frontend learning journey.
 ## 📦 Status
 
 Project created as a learning and practice work. Layout based on basic design challenge. 
-Right now it includes one static page with a modal window
+Right now it includes one static page.
 
 ---
 
